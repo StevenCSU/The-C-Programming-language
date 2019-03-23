@@ -9,7 +9,7 @@ int main()
     for (i = 0; i < 10; ++i)
         ndigit[i] = 0;
 
-    while((c = getchar()) != EOF){
+    while((c = getchar()) != EOF)
         /* code */
         if (c >= '0' && c <= '9')
             ++ndigit[c-'0'];
@@ -24,6 +24,6 @@ int main()
         printf(" %d", ndigit[i]);
     }
     printf(", white space= %d, other = %d\n", nwhite, nother);
-    }
     
+    return 0;
 }
