@@ -1,6 +1,3 @@
-#include <stdio.h>
-#define MAXLINE 1000    /* 允许的输入行的最大长度 */
-
 /**
  * while (还有未处理的行)
  * if （该行比已处理的最长行还要长）
@@ -9,6 +6,10 @@
  * 打印最长的行
  * 
 **/
+
+#include <stdio.h>
+#define MAXLINE 1000    /* 允许的输入行的最大长度 */
+
 int getlines(char line[], int maxline);
 void copy(char to[], char from[]);
 
