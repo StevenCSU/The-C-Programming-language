@@ -28,4 +28,5 @@ int getlines(char s[], int lim)
 int removeTab(char line[])
 {
     //todo
+    return 0;
 }
